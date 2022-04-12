@@ -1,0 +1,7 @@
+cf_region      = "Specify the Region"
+cf_environment = "Test or Production"
+cf_username    = "Cloud Foundry Username"
+cf_password    = "Cloud Foundry Password"
+cf_api         = "Cloud Foundry Login API"
+cf_space_id    = "Specify the GUID of your Space (cf space SPACE --guid)"
+cf_org         = "Specify Your Org"
