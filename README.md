@@ -4,7 +4,7 @@
 
 ## Example
 
-TODO
+Refer examples/default folder for the default example
 
 # Contact / Getting help
 
