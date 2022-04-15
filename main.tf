@@ -10,7 +10,7 @@ resource "cloudfoundry_service_instance" "kafka" {
   name  = "tf-kafka-${local.postfix}"
   space = var.cf_space_id
   //noinspection HILUnresolvedReference
-  service_plan                   = data.cloudfoundry_service.kafka.service_plans[var.plan]
+  service_plan                   = data.cloudfoundry_service.kafka.service_plans[var.service_plan]
 }
 
 resource "cloudfoundry_service_key" "key" {

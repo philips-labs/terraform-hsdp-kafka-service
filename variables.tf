@@ -27,7 +27,7 @@ variable "docker_password" {
   default     = ""
 }
 
-variable "plan" {
+variable "service_plan" {
   description = "Plan to use"
   type        = string
   default     = "kafka-standard-3"
