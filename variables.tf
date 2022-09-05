@@ -50,3 +50,9 @@ variable "exporter_environment" {
   description = "Additional configuration for the exporter"
   default     = {}
 }
+
+variable "tags" {
+  type        = list(string)
+  description = "list of tags added to the service"
+  default     = []
+}

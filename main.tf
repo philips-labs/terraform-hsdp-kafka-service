@@ -9,6 +9,7 @@ resource "random_pet" "name" {
 resource "cloudfoundry_service_instance" "kafka" {
   name  = "tf-kafka-${local.postfix}"
   space = var.cf_space_id
+  tags  = var.tags
   //noinspection HILUnresolvedReference
   service_plan                   = data.cloudfoundry_service.kafka.service_plans[var.service_plan]
 }
